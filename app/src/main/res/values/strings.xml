@@ -2,4 +2,13 @@
     <string name="app_name">Meclist</string>
     <string name="activity_main_entrar">Entrar</string>
     <string name="activity_main_cadastrar">Cadastrar</string>
+
+    <string name="tela_entrar_voltar">Voltar</string>
+    <string name="tela_entrar_cabecalho">Para acessar o app, faça login com seu endereço de e-mail.</string>
+    <string name="tela_entrar_email">e-mail</string>
+    <string name="tela_entrar_senha">senha</string>
+
+    <string name="tela_entrar_email_add">seuemail@exemplo.com</string>
+
+    <string name="tela_entrar_esqueci_senha">Esqueci minha senha</string>
 </resources>
