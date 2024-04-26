@@ -4,24 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEFEFE"
     android:orientation="vertical"
     tools:context=".TelaEntrar">
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/josefin_sans_bold"
         android:text="@string/tela_entrar_cabecalho" />
 
@@ -30,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/josefin_sans_bold"
         android:text="@string/tela_entrar_email" />
 
@@ -41,7 +32,10 @@
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:text="seuemail@exemplo.com"
+        android:textColor="#26000000" />
+
 
     <TextView
         android:id="@+id/textView4"
@@ -59,13 +53,15 @@
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:text="password"
+        android:textColor="#26000000" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="226dp"
+        android:layout_marginStart="226dp"
         android:fontFamily="@font/josefin_sans_bold"
         android:text="@string/tela_entrar_esqueci_senha" />
 
