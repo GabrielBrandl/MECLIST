@@ -6,4 +6,7 @@
     <string name="tela_entrar_email" translatable="false">e-mail</string>
     <string name="tela_entrar_senha" translatable="false">senha</string>
     <string name="tela_entrar_esqueci_senha" translatable="false">Esqueci minha senha</string>
+
+
+    <string name="tela_esqueci_senha_cabecalho">Qual o seu e-mail? Digite abaixo para que seja enviado um código para alteração da sua senha.</string>
 </resources>

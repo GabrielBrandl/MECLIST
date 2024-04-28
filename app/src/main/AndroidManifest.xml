@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MECLIST"
         tools:targetApi="31">
         <activity
+            android:name=".EsqueciSenha"
+            android:exported="false" />
+        <activity
             android:name=".TelaEntrar"
             android:exported="false" />
         <activity
