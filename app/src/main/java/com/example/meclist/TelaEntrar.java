@@ -16,9 +16,9 @@ public class TelaEntrar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        Button voltar;
-        Button esqueci_senha;
-        Button entrar_entrar;
+        Button voltar; // Voltar a primeira tela
+        Button esqueci_senha; // Acessar a área de esquecir senha
+        Button entrar_entrar; // Acessar a tela de entrar
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_entrar);
