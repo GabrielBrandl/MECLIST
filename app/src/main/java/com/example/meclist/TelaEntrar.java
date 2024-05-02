@@ -18,12 +18,15 @@ public class TelaEntrar extends AppCompatActivity {
 
         Button voltar; // Voltar a primeira tela
         Button esqueci_senha; // Acessar a área de esquecir senha
-        Button entrar_entrar; // Acessar a tela de entrar
+        Button entrar_tela_inicial; // Acessar a tela de entrar
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_entrar);
 
         voltar = (Button) findViewById(R.id.button_voltar_tela_entrar);
+        esqueci_senha = (Button) findViewById(R.id.button_esqueci_senha);
+        entrar_tela_inicial = (Button) findViewById(R.id.button_tela_entrar);
+
 
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,12 +35,19 @@ public class TelaEntrar extends AppCompatActivity {
             }
         });
 
-        esqueci_senha = (Button) findViewById(R.id.button_esqueci_senha);
+
 
         esqueci_senha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivities(new Intent[]{new Intent(TelaEntrar.this, EsqueciSenha.class)});
+            }
+        });
+
+        entrar_tela_inicial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivities(new Intent[]{new Intent(TelaEntrar.this, TelaInicial.class)});
             }
         });
 
